@@ -55,7 +55,7 @@ public final class ModConfig {
 
         @Name("scheduledTaskproblemAction")
         @LangKey("vanillafix.crashes.scheduledTaskproblemAction")
-        public ProblemAction scheduledTaskAction = ProblemAction.NOTIFICATION;
+        public ProblemAction scheduledTaskAction = ProblemAction.LOG;
 
         @Name("hasteURL")
         @LangKey("vanillafix.crashes.hasteURL")
