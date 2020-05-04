@@ -18,7 +18,7 @@ apply plugin: "org.spongepowered.mixin"
 
 repositories {
     maven { url "http://repo.spongepowered.org/maven" }
-    maven { url "http://chickenbones.net/maven/" }
+    maven { url "https://maven.covers1624.net" }
     maven { url "http://www.dimdev.org/maven" }
     maven { url "http://maven.tterrag.com/" }
     ivy {
@@ -29,7 +29,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.dimdev:mixin:0.7.11-SNAPSHOT") {
+    implementation("org.spongepowered:mixin:0.8") {
         exclude module: "asm-commons"
         exclude module: "asm-tree"
         exclude module: "launchwrapper"
@@ -60,7 +60,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 minecraft {
-    version "1.12.2-14.23.4.2703"
+    version "1.12.2-14.23.5.2847"
     runDir "run"
     mappings "stable_39"
     makeObfSourceJar false
